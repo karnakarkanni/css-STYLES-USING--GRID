@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .co{
+        display: grid;
+        gap:10px;
+        height: 100vh;
+        grid-template-columns: repeat(3,1fr);
+       
+    }
+
+    .co> div{
+        background-color: blue;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+     
+       
+    }
+    .items1{
+        grid-column: 1/4;
+    }
+    .items5{
+        grid-column: 1/4;
+    }
+
+</style>
+<body>
+    <div class="co"> 
+    <div class="items1">1</div>
+    <div class="items2">2</div>
+    <div class="items3">3</div>
+    <div class="items4">4</div>
+    <div class="items5">5</div>
+
+ 
+</div>
+</body>
+</html>

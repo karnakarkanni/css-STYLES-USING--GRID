@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: repeat(4,100px);
+        grid-template-rows: repeat(3,100px);
+        gap: 10px;
+        height: 50vh;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+
+    }
+    .main>div{
+        
+        color:rgb(6, 6, 6);
+    }
+    .items1{
+        background-color: lightgreen;
+        grid-row: 1/4;
+    }
+    .items2{
+        background-color: lightgreen;
+        grid-column: 2/4;
+    }
+    .items3{
+        background-color: red;
+        grid-column:4/5;
+        grid-row:1/2;
+    
+    }
+    .items4{
+        background-color: lightgreen;
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+    .items5{
+        background-color:red;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .items6{
+        background-color: lightgreen;
+        grid-column: 4/5;
+        grid-row: 2/4;
+    }
+    .items7{
+        background-color: red;
+       grid-column: 2/3;
+       grid-row: 3/4;
+       
+    }
+    .items8{
+        background-color:lightgreen;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+</style>
+<body>
+    <div class="main">
+        <div class="items1">1</div>
+        <div class="items2">2</div>
+        <div class="items3">3</div>
+        <div class="items4">4</div>
+        <div class="items5">5</div>
+        <div class="items6">6</div>
+        <div class="items7">7</div>
+        <div class="items8">8</div>
+       
+    </div>
+    
+</body>
+</html>
